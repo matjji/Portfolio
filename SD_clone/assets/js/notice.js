@@ -52,6 +52,7 @@ class Notice {
         content.appendChild(btnList);
 
         const btnClose = document.createElement('a');
+        btnClose.style.display = 'inline-block'
         btnClose.style.setProperty("margin", '0 10px', 'important');
         btnClose.style.setProperty("color", '#fff', 'important');
         btnClose.setAttribute('href', '#');
@@ -60,6 +61,7 @@ class Notice {
         btnList.appendChild(btnClose);
 
         const btnDocument = document.createElement('a');
+        btnDocument.style.display = 'inline-block'
         btnDocument.style.setProperty("margin", '0 10px', 'important');
         btnDocument.style.setProperty("color", '#fff', 'important');
         btnDocument.setAttribute('href', '#pdfDocument');
